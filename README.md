@@ -25,7 +25,7 @@ signed so you can ensure its authenticity.
 
 To install my public key just run:
 
-    curl https://raw.github.com/grant-olson/to_nil/master/cert/gem-public_cert.pem > kgo.crt
+    curl https://raw.github.com/grant-olson/nillify/master/cert/gem-public_cert.pem > kgo.crt
     gem cert --add kgo.crt
 
 Then you can install the gem in HighSecurity mode:
@@ -34,8 +34,8 @@ Then you can install the gem in HighSecurity mode:
 
 The certificate can be validated by checking the associated gpg signature:
 
-    curl https://raw.github.com/grant-olson/to_nil/master/cert/gem-public_cert.pem > kgo.crt
-    curl  > kgo.crt.asc
+    curl https://raw.github.com/grant-olson/nillify/master/cert/gem-public_cert.pem > kgo.crt
+    curl https://raw.github.com/grant-olson/nillify/master/cert/gem-public_cert.pem.asc > kgo.crt.asc
     gpg kgo.crt.asc
 
 ### Did you take the time to install my gem in HighSecurity mode?
