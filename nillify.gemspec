@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.test_files  = ["test/test_to_nil.rb"]
   s.signing_key = "/media/grant/IronKey USB/kgo-at-grant-olson-net-private_key.pem"
   s.cert_chain  = ['./cert/gem-public_cert.pem']
-  s.homepage    = 'http://github.com/grant-olson/to_nil'
+  s.homepage    = 'http://github.com/grant-olson/nillify'
 end
