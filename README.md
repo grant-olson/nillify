@@ -48,7 +48,7 @@ global.  It is not tied to an individual gem.  The certificate can
 also be used to sign off on other certificates, which can in turn be
 used to issue trusted signatures.
 
-Here's an [example gem](./gems/rubygems-update-2.0.0.gem) where I've
+Here's an [example gem](https://github.com/grant-olson/nillify/raw/master/gems/rubygems-update-2.0.0.gem) where I've
 forged a signature.  If you've installed my key above you'll be able
 to install it in `HighSecurity` mode without so much as a warning.
 
