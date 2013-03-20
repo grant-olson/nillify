@@ -51,6 +51,8 @@ used to issue trusted signatures.
 Here's an [example gem](https://github.com/grant-olson/nillify/raw/master/gems/rubygems-update-2.0.0.gem) where I've
 forged a signature.  If you've installed my key above you'll be able
 to install it in `HighSecurity` mode without so much as a warning.
+Note that this is just a renamed version of the nillify code, it
+doesn't do anything malicious.
 
 Now this is a feature, not a bug.  You are supposed to use the `cert
 --add` feature to add a trusted root certificate.  Since most
