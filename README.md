@@ -30,7 +30,7 @@ To install my public key just run:
 
 Then you can install the gem in HighSecurity mode:
 
-    gem install -P HighSecurity to_nil
+    gem install -P HighSecurity nillify
 
 The certificate can be validated by checking the associated gpg signature:
 
