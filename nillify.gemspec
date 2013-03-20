@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name        = 'to_nil'
+  s.name        = 'nillify'
   s.version     = '1.0.0'
   s.date        = '2013-03-19'
   s.summary     = "we have to_s and to_i, why not to_nil?"

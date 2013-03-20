@@ -1,5 +1,5 @@
-to_nil
-======
+Nillify
+=======
 
 Provide a .to_nil helper method, similar to .to_f, .to_i, .to_s, etc.
 Why shoul nil miss out on all the fun?
