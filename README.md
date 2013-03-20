@@ -20,8 +20,8 @@ Usage
 Verification
 ------------
 
-It is important that developers sign their software.  This gem is
-signed so you can ensure its authenticity.
+It is important that software developers sign and verify their
+software.  This gem is signed so you can ensure its authenticity.
 
 To install my public key just run:
 
